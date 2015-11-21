@@ -14,10 +14,6 @@ knit        : slidify::knit2slides
 <style>.title-slide {
   background-color: #8B0000;
 }
-#.title-slide hgroup > h1, 
-#.title-slide hgroup > h2 {
-#  color: #996515 ;
-}
 
 </style> 
 
@@ -57,6 +53,4 @@ This Data Product is based on the code and guidance provided in the sources belo
  <img src = './assets/img/thankyou.png' height=150, width=950, align='centere'></img>
 </footer>
 
-#http://rpubs.com/rimo0007/128171
-#slidify("index.Rmd")
-#browseURL('index.html')
+
