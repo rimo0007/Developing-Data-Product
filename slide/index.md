@@ -1,0 +1,62 @@
+---
+title       : 'Coursera Developing Data Products Project:'
+subtitle    : Predict A Patient Will Survive 5 years or longer  or Die Within 5 Years After A Surgery For Breast Cancer
+author      : Kalyan Nandi
+job         : Coursera Student
+framework   : io2012     # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+transition  : cube
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+--- 
+<style>.title-slide {
+  background-color: #8B0000;
+}
+#.title-slide hgroup > h1, 
+#.title-slide hgroup > h2 {
+#  color: #996515 ;
+}
+
+</style> 
+
+## Introduction
+
+
+The shiny app under development allows a user to enter some basic information about a Breast Cancer Patients who has undergone a surgery, and obtain a prediction that patient will survive 5 years or longer  or die Within 5 years after her Surgery.  The app relies on a simple Random Forest algorithm and a data set "Haberman's Survival Dataset" from the UCI Machine Learning Repository. 
+
+--- 
+
+## Description of Haberman's Survival Dataset 
+
+Dataset that was used for buliding the model :
+
+* The Random Forest Predictive model was bulid up on the basis of Haberman's Survival Data Set.
+* The dataset contains cases from a study that was conducted between 1958 and 1970 at the University of Chicago's Billings Hospital.
+* It contains recodrs of the survival of patients who had undergone surgery for breast cancer.
+
+---
+## Survival Prediction of Breast Cancer Patient Who has Undergone a Surgery!!!
+
+1. Enter the age of patient at time Of Operation
+2. Enter patient's year of Operation
+3. Enter number of positive axillary nodes detected in the test
+4. Get the survival prediction result based on Random Forest Algorithm within few seconds
+
+---
+## References
+
+This Data Product is based on the code and guidance provided in the sources below.
+
+1. Shiny : [https://kalyannandi1.shinyapps.io/proj2](https://kalyannandi1.shinyapps.io/proj2)
+2. GitHub : [https://github.com/rimo0007/Developing-Data-Product](https://github.com/rimo0007/Developing-Data-Product)
+
+<footer class = 'logo'>
+<br><br><br>
+ <img src = './assets/img/thankyou.png' height=150, width=950, align='centere'></img>
+</footer>
+
+#http://rpubs.com/rimo0007/128171
+#slidify("index.Rmd")
+#browseURL('index.html')
