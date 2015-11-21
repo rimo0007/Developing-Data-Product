@@ -56,7 +56,3 @@ This Data Product is based on the code and guidance provided in the sources belo
 <br><br><br>
  <img src = './assets/img/thankyou.png' height=150, width=950, align='centere'></img>
 </footer>
-
-#http://rpubs.com/rimo0007/128171
-#slidify("index.Rmd")
-#browseURL('index.html')
