@@ -14,10 +14,6 @@ knit        : slidify::knit2slides
 <style>.title-slide {
   background-color: #8B0000;
 }
-#.title-slide hgroup > h1, 
-#.title-slide hgroup > h2 {
-#  color: #996515 ;
-}
 
 </style> 
 
